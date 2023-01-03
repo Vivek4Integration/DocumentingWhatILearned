@@ -2,7 +2,7 @@
 
 ## Plan for today 
 - [ ] Bring up the solution described in following link [Automate COVID-19 test forms](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/ai/form-recognizer-covid).
-- [ ] Complete reading ten pages of each book. 
+- [x] Complete reading ten pages of each book. 
 
 ```mermaid
 gantt
@@ -37,7 +37,45 @@ Tomorrow, my plan is to make it so that I can have multiple environment related 
 - Staging and
 - Production.
   
+> Note: There is plethora of industrial scenario provided by Microsoft, which is at [link](https://learn.microsoft.com/en-us/azure/architecture/industries/overview)
 
+
+I read the notes and the dataflow is Azure logic app ingest raw data from email attachment and it will process the raw data and provide it as input to Data Lake storage to process the form and convert to key value json data, which will be stored in Cosmos DB. Finally PowerBI will consume these structured data and is display to customer.
+
+```mermaid
+flowchart LR
+    linkStyle default stroke:orange
+    classDef blue fill:#2374f7, stroke:#000, stroke-width:2px,color:#fff
+    classDef red fill:#fff, stoker:#000, stoke-width:2px,color:#e72828
+    subgraph Process
+    A(Form sent as attachment)-->B(Logic App)
+    C(Form sent from application)-->D(Azure Functions)
+    B-->E[(Storage)]:::blue
+    D-->E
+    E-->F(Azure Storage)
+    F-->G(Azure Form Recognizer)
+    F-->H(Azure Custom Vision)
+    end
+    subgraph Persist
+    G-->I(Azure Cosmos DB, Azure Synapse Analytics)
+    H-->I
+    end
+    subgraph Analyse and Visualize
+    I-->K(Power BI, Power Apps):::red
+    end
+linkStyle 0,1 stroke:green
+linkStyle 2,3 stroke:white
+click B "https://azure.microsoft.com/en-gb/products/logic-apps/"
+```
 
 ## Read
 Plan is to read about logic app, Git and Atomic Habit.
+
+## Distraction
+Was distracted to organizing my activity i.e., [this video](https://www.youtube.com/watch?v=ZouUPYH59Uc&t=30). Time spent
+Was useful though.
+
+## End of day notes
+There were few unaccounted instance where I had to go out. One to get medicine and another time, for evening snack.
+I fell short on accomplishing one goal which was to get the Azure resource deployed, I am now thinking will look into other better logic app solution which can be deployed.
+There were few distractions, which I could have avoided.
