@@ -85,3 +85,9 @@ There were few unaccounted instance where I had to go out. One to get medicine a
 I fell short on accomplishing one goal which was to get the Azure resource deployed, I am now thinking will look into other better logic app solution which can be deployed.
 There were few distractions, which I could have avoided.
 
+Expense that I recall for today,
+1. Snacks - 118 Rs
+2. Fruits - 262 Rs
+3. Medicine - 65
+4. Act BB payment - 44
+
