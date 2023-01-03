@@ -76,6 +76,12 @@ Was distracted to organizing my activity i.e., [this video](https://www.youtube.
 Was useful though.
 
 ## End of day notes
+What did I do for family?
+- Played with Kids
+- Watched movie with wife 
+  ![Last Seen Alive](images/Last%20Seen%20Alive.png)
+
 There were few unaccounted instance where I had to go out. One to get medicine and another time, for evening snack.
 I fell short on accomplishing one goal which was to get the Azure resource deployed, I am now thinking will look into other better logic app solution which can be deployed.
 There were few distractions, which I could have avoided.
+

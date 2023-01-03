@@ -27,3 +27,6 @@ gantt
     Family Time: 17:30,19:00
     Dinner: 21:00, 22:00 
 ```
+
+## Family Time
+Plan to take out Aadhya and Aarav out in open ground and teach them to make tiny sticks and create a toy house.
