@@ -4,6 +4,7 @@
 - [ ] Complete by creating variable for COVID solution
 - [ ] Checkout [Link](https://learn.microsoft.com/en-gb/training/azure/?sso=azure-portal&WT.mc_id=home_homepage-azureportal-learn?sso=azure-portal&WT.mc_id=home_homepage-azureportal-learn)
 
+
 ```mermaid
 gantt
     title Timeline
@@ -30,3 +31,24 @@ gantt
 
 ## Family Time
 Plan to take out Aadhya and Aarav out in open ground and teach them to make tiny sticks and create a toy house.
+
+## Webinar
+Going through webinar at 10:40AM.
+
+Other videos that are useful are 
+- https://www.youtube.com/watch?v=Z3qaBQS0w20
+- https://www.youtube.com/watch?v=A74LT0P5hjo
+- https://www.youtube.com/watch?v=_V7xfASK-rM
+
+## Issues
+
+### Designer Issue
+
+I faced an issue with VS Code and Azure Logic App, where I was not able to open designer
+It gave error stating that I cannot open socket and another error stating assembly missing.
+The resolution was to re-install Function Core Tool after fully uninstalling it.
+
+----------
+
+### Debugging the logic app standard.
+Was not successful the logic app standard. The issue is related to extension bundle not being found.
