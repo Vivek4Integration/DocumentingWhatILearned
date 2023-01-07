@@ -1,0 +1,32 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"yzhang.markdown-all-in-one",
+		"DavidAnson.vscode-markdownlint",
+		"wayou.vscode-todo-highlight",
+		"Gruntfuggly.todo-tree",
+		"bierner.markdown-mermaid",
+		"eamodio.gitlens",
+		"ms-vscode.azure-account",
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-azuretools.vscode-azurelogicapps",
+		"ms-azuretools.vscode-azureresourcegroups",
+		"Azurite.azurite",
+		"ms-dotnettools.csharp",
+		"ms-azuretools.vscode-docker",
+		"Shopify.theme-check-vscode",
+		"GitHub.vscode-pull-request-github",
+		"humao.rest-client",
+		"dendron.dendron-paste-image",
+		"bierner.markdown-emoji"
+
+		
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+		
+	]
+}
