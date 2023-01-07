@@ -28,19 +28,18 @@ gantt
 ```
 
 ## Family Time
+
 Spend time with Aarav and Aadhya,
+
 - Teach Aarav how to throw ball.
 - Teach Aadhya about recalling things that we learn.
 
 ## Webinar
+
 Going through webinar at 10:40AM.
 
-Other videos that are useful are 
-- https://www.youtube.com/watch?v=Z3qaBQS0w20
-- https://www.youtube.com/watch?v=A74LT0P5hjo
-- https://www.youtube.com/watch?v=_V7xfASK-rM
+Other videos that are useful are,
 
-## Issues
-
-### Debugging the logic app standard.
-Find a fix for the issue.
+- [Azure Logic Apps – Code & API free integration + New SAP connector](https://www.youtube.com/watch?v=Z3qaBQS0w20)
+- [Logic Apps Live - June 2021](https://www.youtube.com/watch?v=A74LT0P5hjo)
+- [Integration Down Under February 2021 Meeting](https://www.youtube.com/watch?v=_V7xfASK-rM)

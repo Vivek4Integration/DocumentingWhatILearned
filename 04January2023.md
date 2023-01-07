@@ -1,9 +1,9 @@
 # 04 January 2023
+
 - [ ] Go through webinar [link](https://event.on24.com/eventRegistration/console/apollox/mainEvent?simulive=y&eventid=3012221&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=DF262A2570FCE74DDE56098B18A6BD11&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=425967263&contenttype=A&mediametricsessionid=500780270&mediametricid=4213653&usercd=425967263&mode=launch)
 - [ ] Implement the sample solution in webinar
 - [ ] Complete by creating variable for COVID solution
 - [ ] Checkout [Link](https://learn.microsoft.com/en-gb/training/azure/?sso=azure-portal&WT.mc_id=home_homepage-azureportal-learn?sso=azure-portal&WT.mc_id=home_homepage-azureportal-learn)
-
 
 ```mermaid
 gantt
@@ -30,15 +30,18 @@ gantt
 ```
 
 ## Family Time
+
 Plan to take out Aadhya and Aarav out in open ground and teach them to make tiny sticks and create a toy house.
 
 ## Webinar
+
 Going through webinar at 10:40AM.
 
-Other videos that are useful are 
-- https://www.youtube.com/watch?v=Z3qaBQS0w20
-- https://www.youtube.com/watch?v=A74LT0P5hjo
-- https://www.youtube.com/watch?v=_V7xfASK-rM
+Other videos that are useful are,
+
+- [Azure Logic Apps – Code & API free integration + New SAP connector](https://www.youtube.com/watch?v=Z3qaBQS0w20)
+- [Logic Apps Live - June 2021](https://www.youtube.com/watch?v=A74LT0P5hjo)
+- [Integration Down Under February 2021 Meeting](https://www.youtube.com/watch?v=_V7xfASK-rM)
 
 ## Issues
 
@@ -50,5 +53,6 @@ The resolution was to re-install Function Core Tool after fully uninstalling it.
 
 ----------
 
-### Debugging the logic app standard.
+### Debugging the logic app standard
+
 Was not successful the logic app standard. The issue is related to extension bundle not being found.

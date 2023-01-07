@@ -3,6 +3,7 @@
 ## PowerShell
 
 ### Comments
+
 Looked at common comments and below comment type for PowerShell, following fits the bill, will be using from going forward.
 
 ```PowerShell
@@ -29,6 +30,7 @@ Version 1.1 - update for blah
 ```
 
 ### Adding member to json
+
 I was converting a json to json object and found the need to add member to json object.
 
 ``` PowerShell
@@ -44,6 +46,8 @@ az ad sp list --filter "appid eq 'f88d7c63-4b09-4448-a7e6-1732c63269f9'"
 ```
 
 ## Markdown
+
 Following is way to add to do list,
+
 - [x] Todo list item 1
-- [ ] Todo list item 2 
+- [ ] Todo list item 2

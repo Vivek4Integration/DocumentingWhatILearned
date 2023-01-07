@@ -1,6 +1,8 @@
 {
     "version": "0.2",
-    "ignorePaths": [],
+    "ignorePaths": [
+        "emoji-cheat-sheet.md"
+    ],
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [],
@@ -16,7 +18,9 @@
         "dotnettools",
         "eamodio",
         "humao",
+        "markdownlintignore",
         "scode",
+        "subscriptionid",
         "wayou",
         "yzhang"
     ],

@@ -33,3 +33,4 @@ Following are the todo, I have for this day,
 
 Slept at 3AM which is not good. Failed in habit of sleeping early.
 But did achieve some of the goals, which I set out to do. Got basic understanding of Azure Logic App standard and was able to relate to what was being conveyed in meeting by Big Heads like Wagner and Steef.
+[Resolved] Had issue where I had to ignore linting of markdown file in VS Code, I was able to do it by adding .markdownlintignore file. Refer to local .markdownlintignore file for use case.

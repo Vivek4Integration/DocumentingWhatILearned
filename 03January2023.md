@@ -1,8 +1,9 @@
 # 03 January 2023
 
-## Plan for today 
+## Plan for today
+
 - [ ] Bring up the solution described in following link [Automate COVID-19 test forms](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/ai/form-recognizer-covid).
-- [x] Complete reading ten pages of each book. 
+- [x] Complete reading ten pages of each book.
 
 ```mermaid
 gantt
@@ -27,10 +28,12 @@ gantt
 ```
 
 ## Automate COVID-19 test forms
+
 This is solution sample provided by microsoft for showcasing few of the capabilities.
 
 Today, I just intent to bring up the solution sample solution.
 Tomorrow, my plan is to make it so that I can have multiple environment related to development cycle, basically.
+
 - Development,
 - Functional Test,
 - Integration Test,
@@ -38,7 +41,6 @@ Tomorrow, my plan is to make it so that I can have multiple environment related 
 - Production.
   
 > Note: There is plethora of industrial scenario provided by Microsoft, which is at [link](https://learn.microsoft.com/en-us/azure/architecture/industries/overview)
-
 
 I read the notes and the dataflow is Azure logic app ingest raw data from email attachment and it will process the raw data and provide it as input to Data Lake storage to process the form and convert to key value json data, which will be stored in Cosmos DB. Finally PowerBI will consume these structured data and is display to customer.
 
@@ -60,7 +62,7 @@ flowchart LR
     G-->I(Azure Cosmos DB, Azure Synapse Analytics)
     H-->I
     end
-    subgraph Analyse and Visualize
+    subgraph Analyze and Visualize
     I-->K(Power BI, Power Apps):::red
     end
 linkStyle 0,1 stroke:green
@@ -69,16 +71,20 @@ click B "https://azure.microsoft.com/en-gb/products/logic-apps/"
 ```
 
 ## Read
+
 Plan is to read about logic app, Git and Atomic Habit.
 
 ## Distraction
+
 Was distracted to organizing my activity i.e., [this video](https://www.youtube.com/watch?v=ZouUPYH59Uc&t=30). Time spent
 Was useful though.
 
 ## End of day notes
+
 What did I do for family?
+
 - Played with Kids
-- Watched movie with wife 
+- Watched movie with wife
   ![Last Seen Alive](images/Last%20Seen%20Alive.png)
 
 There were few unaccounted instance where I had to go out. One to get medicine and another time, for evening snack.
@@ -86,8 +92,8 @@ I fell short on accomplishing one goal which was to get the Azure resource deplo
 There were few distractions, which I could have avoided.
 
 Expense that I recall for today,
+
 1. Snacks - 118 Rs
 2. Fruits - 262 Rs
 3. Medicine - 65
 4. Act BB payment - 44
-
