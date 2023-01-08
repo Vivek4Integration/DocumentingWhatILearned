@@ -15,12 +15,12 @@ Following are the todo, I have for this day,
   Update 00:51 AM:
   Went through the aforementioned video and created first sample mentioned in the video i.e., xml to json transformation with stateful workflow.
 
- [ ] TODO: Go through custom connectors in detail.
+- [ ] TODO: Go through custom connectors in detail.
   ![Recommendation](images/customconnectorsdk.png)
 
   Going through second video, one by Steef-Jan Wiggers [Link](https://www.youtube.com/watch?v=0xWP7V2jmSc).
 
- [X] TODO: Add the solution I created to GitHub.
+- [x] TODO: Add the solution I created to GitHub.
  Completed above todo, while doing so learned a quite a bit about creating remote repository for already existing local repo.
  Recommended commands are as follows,
 
@@ -33,4 +33,5 @@ Following are the todo, I have for this day,
 
 Slept at 3AM which is not good. Failed in habit of sleeping early.
 But did achieve some of the goals, which I set out to do. Got basic understanding of Azure Logic App standard and was able to relate to what was being conveyed in meeting by Big Heads like Wagner and Steef.
-[Resolved] Had issue where I had to ignore linting of markdown file in VS Code, I was able to do it by adding .markdownlintignore file. Refer to local .markdownlintignore file for use case.
+
+Issue Resolution: Had issue where I had to ignore linting of markdown file in VS Code, I was able to do it by adding .markdownlintignore file. Refer to local .markdownlintignore file for use case.

@@ -67,7 +67,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Fenced Code Block
 
-```
+```json
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -105,11 +105,13 @@ term
 That is so funny! :joy:
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+There is separate file in detail for emoji [Link](emoji-cheat-sheet.md).
 
 ### Highlight
 
 I need to highlight these ==very important words==.
-
+Above recommendation does not work for VS Code so use `<mark>`to highlight. Sample user case <mark>highlight this</mark>.
+<!-- markdownlint-disable-file MD033 -->
 ### Subscript
 
 H~2~O
@@ -119,7 +121,14 @@ H~2~O
 X^2^
 
 ### Mermaid related documentation
+
 [Overall documentation](https://mermaid.js.org/intro/n00b-syntaxReference.html)
 [Video reference on styling mermaid](https://www.youtube.com/watch?v=-XV1JBfhgWo)
 [Color reference](https://htmlcolorcodes.com/)
 I had to add section to flow chart, was able to do that using subgraph refer to 03 January 2023 notes.
+
+### Special Keys
+
+You can add special keys in following way. This breaks linting rule MD03, which suggest no inline HTML.
+
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>

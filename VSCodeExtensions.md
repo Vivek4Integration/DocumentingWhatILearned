@@ -5,7 +5,7 @@
 - [VS Code extension that I use](#vs-code-extension-that-i-use)
   - [List of extension](#list-of-extension)
     - [Code Spell Check](#code-spell-check)
-    - [markdownlint](#markdownlint)
+    - [Markdownlint](#markdownlint)
     - [Markdown all in one](#markdown-all-in-one)
     - [TODO Highlight](#todo-highlight)
     - [Todo Tree](#todo-tree)
@@ -23,14 +23,17 @@
     - [REST Client](#rest-client)
     - [Dendron Paste Image](#dendron-paste-image)
     - [Markdown Emoji](#markdown-emoji)
+    - [Todoist](#todoist)
     - [Not Installed](#not-installed)
   - [Workspace recommended extensions](#workspace-recommended-extensions)
+  - [Extension settings](#extension-settings)
+    - [markdownlint](#markdownlint-1)
 
 ### Code Spell Check
 
 This is extension for spell check and it can be found at [Link](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker).
 
-### markdownlint
+### Markdownlint
 
 This is extension for linting and adding extra style to markdown files. This extension can be found at [Link](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
@@ -189,8 +192,13 @@ Paste images directly from your clipboard to markdown/asciidoc(or other file)!
 
 ### Markdown Emoji
 
-Adds :emoji: syntax support to VS Code's built-in Markdown preview and to ,markdown cells in notebooks.
+Adds :emoji: syntax support to VSCode's built-in Markdown preview and to ,markdown cells in notebooks.
 [Link](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+
+### Todoist
+
+Todoist related extension for VSCode.
+[Link](https://marketplace.visualstudio.com/items?itemName=waymondo.todoist)
 
 ### Not Installed
 
@@ -204,7 +212,10 @@ In order to view the workspace recommended extensions.
 Do the following,
 
 - Ctrl + Shift + P to go to command panel,
-- Type configure recommended extensions
+- Type "configure recommended extensions" and press "Enter"
+
+Related images are,
+![configure recommended extensions](images/configurerecommendedextensionscommand.png)
 
 That way you will get to the workspace recommended extensions setting page.
 At the time of writing following are the extensions,
@@ -232,11 +243,21 @@ At the time of writing following are the extensions,
 "GitHub.vscode-pull-request-github",
 "humao.rest-client",
 "dendron.dendron-paste-image",
-"bierner.markdown-emoji"		
+"bierner.markdown-emoji"
 ],
 // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 "unwantedRecommendations": [
-	
 ]
 }
 ```
+
+## Extension settings
+
+### markdownlint
+
+Had to make following adjustment to setting of Markdownlint extension, in order for inline html tag to be allowed. I had to do it, as for following reason,
+
+- `<kyb>` used to show special keys like <kbd>Ctrl</kbd>, and
+- `<mark>` inline html tag are required, as the preview window of VS Code does not support related markdown equivalent.
+
+![Mark Down Lint Settings](images/markdownlintsettings.png)
