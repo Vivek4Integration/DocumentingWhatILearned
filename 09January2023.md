@@ -19,11 +19,13 @@ Get-ParameterTemplate
 
 ## Journel
 
-- [ ] TODO:Go through following related to logging in Azure function later. [Link](https://engineering.deloitte.com.au/articles/correlated-structured-logging-on-azure-functions)
+- [ ] TODO: Go through following related to logging in Azure function later. [Link](https://engineering.deloitte.com.au/articles/correlated-structured-logging-on-azure-functions)
 - [ ] TODO: Go through Logic App related video by Derek Li on Logic App [Link](https://learn.microsoft.com/en-us/events/build-may-2021/azure/breakouts/od548/)
   This session is to learn more about the amazing capabilities of the new runtime, from local development and debugging, seamless DevOps experience, hybrid connectivity, to high performance execution on Azure or in Containers and Kubernetes.
 - [ ] TODO: Go through and understand the layout of Architecture Center [Link](https://learn.microsoft.com/en-gb/azure/architecture/).
 - [ ] TODO: Go through Flat File encoding and decoding sample from Microsoft for Logic App [Link](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-flatfile?tabs=standard).
+- [ ] TODO: Go through Kent Weare video on Logic Apps Standard using local SQL Server instead of Storage Account [Link](https://www.youtube.com/watch?v=F51RsUGJipI).
+- [ ] TODO: Go through video on Automated testing of Logic App [Link](https://www.integration-playbook.io/docs/integrate-summit).
 
 SKU stands for Stock Keeping Unit.
 
