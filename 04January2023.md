@@ -1,8 +1,8 @@
 # 04 January 2023
 
 - [ ] Go through webinar [link](https://event.on24.com/eventRegistration/console/apollox/mainEvent?simulive=y&eventid=3012221&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=DF262A2570FCE74DDE56098B18A6BD11&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=425967263&contenttype=A&mediametricsessionid=500780270&mediametricid=4213653&usercd=425967263&mode=launch)
-- [ ] Implement the sample solution in webinar
-- [ ] Complete by creating variable for COVID solution
+- [X] Implement the sample solution in webinar
+- [X] Complete by creating variable for COVID solution
 - [ ] Checkout [Link](https://learn.microsoft.com/en-gb/training/azure/?sso=azure-portal&WT.mc_id=home_homepage-azureportal-learn?sso=azure-portal&WT.mc_id=home_homepage-azureportal-learn)
 
 ```mermaid

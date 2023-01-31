@@ -24,6 +24,7 @@
     - [Dendron Paste Image](#dendron-paste-image)
     - [Markdown Emoji](#markdown-emoji)
     - [Todoist](#todoist)
+    - [VSCode-pdf](#vscode-pdf)
     - [Not Installed](#not-installed)
   - [Workspace recommended extensions](#workspace-recommended-extensions)
   - [Extension settings](#extension-settings)
@@ -200,6 +201,12 @@ Adds :emoji: syntax support to VSCode's built-in Markdown preview and to ,markdo
 Todoist related extension for VSCode.
 [Link](https://marketplace.visualstudio.com/items?itemName=waymondo.todoist)
 
+### VSCode-pdf
+
+VSCode-PDF is extension for previewing PDF.
+
+[Link](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+
 ### Not Installed
 
 These are extensions that are not installed but will be installed later.
@@ -243,7 +250,9 @@ At the time of writing following are the extensions,
 "GitHub.vscode-pull-request-github",
 "humao.rest-client",
 "dendron.dendron-paste-image",
-"bierner.markdown-emoji"
+"bierner.markdown-emoji",
+"waymondo.todoist",
+"tomoki1207.pdf"
 ],
 // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 "unwantedRecommendations": [

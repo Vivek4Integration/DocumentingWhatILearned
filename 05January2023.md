@@ -1,8 +1,8 @@
 # 04 January 2023
 
-- [ ] Create Logic App using portal in case not able to create offline.
-- [ ] Create logic app for sample scenarios that you can find online.
-- [ ] Keep creating as many logic app as you can.
+- [X] Create Logic App using portal in case not able to create offline.
+- [X] Create logic app for sample scenarios that you can find online.
+- [X] Keep creating as many logic app as you can.
 
 ```mermaid
 gantt
